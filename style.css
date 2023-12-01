@@ -20,16 +20,23 @@
 }
 .bck-image{
     position: absolute;
+    padding-top: 60px;
     right: 5px;
     top: 5px;
 }
 nav{
+    position: fixed;
     display: flex;
     align-items: center;
     justify-content: space-between;
-    padding-top: 45px;
+    padding-top: 10px;
+    padding-bottom: 10px;
     padding-left: 8%;
     padding-right: 8%;
+    z-index: 1;
+    background: #858585;
+    width: 100%;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
 }
 .logo{
     color: rgb(255, 255, 255);
@@ -39,6 +46,9 @@ nav{
 }
 span{
     color: #f9004d;
+}
+nav ul{
+    padding: 0 0 0 30rem;
 }
 nav ul li{
     position: relative;
